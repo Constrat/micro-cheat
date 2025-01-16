@@ -9,7 +9,7 @@ local micro = import("micro")
 local config = import("micro/config")
 local os = import("os")
 
-local cheatdir = config.ConfigDir.."/plug/micro-cheat/cheatsheets/"
+local cheatdir = config.ConfigDir.."/plug/cheat/cheatsheets/" 
 
 function getSuffix(filename)
 	-- return last suffix without dot. Example: "tero.foo.bar.sass" -> "sass"
